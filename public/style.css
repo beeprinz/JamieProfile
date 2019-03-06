@@ -3,7 +3,7 @@ body, html {
   }
 
 .section1 {
-    background-image: url('https://colorlib.com/preview/theme/elen/images/bg_1.jpg'); 
+    background-image: url('https://colorlib.com/preview/theme/elen/images/bg_1.jpg');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -65,22 +65,39 @@ body, html {
 }
 
 .aboutMe {
-    height: 80%;
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .jamieClimbingPicContainer {
-    padding: 30px;
+    /* padding: 30px;
     height: 60%;
     width: 30%;
     z-index: 10;
-    position: relative;
+    position: relative; */
+    min-height: 300px;
+    flex: 0 1 600px;
+    overflow: hidden;
+
+
+
 }
 
 .aboutMe img {
-    display: block;
+    /* display: block;
     margin-left: auto;
     margin-right: auto;
     height: inherit;
-    border: 1px solid black;    
+    border: 1px solid black;     */
+    width: 100%;
+    transform: rotate(90deg);
 }
 
+.about-me-info {
+    flex: 0 1 600px;
+
+}
